@@ -1,0 +1,93 @@
+/*---------------------------
+   Welcome Notice Styling
+----------------------------*/
+.newsmatic-welcome-notice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 32px 26px;
+}
+
+.newsmatic-welcome-notice.notice.notice-info.is-dismissible {
+    /* padding-right: 0px; */
+}
+
+.newsmatic-welcome-notice .notice-content-wrap {
+    flex: 0 1 70%;
+    padding: 30px 20px;
+}
+
+.newsmatic-welcome-notice .screenshot-wrap {
+    flex: 0 1 20%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.newsmatic-welcome-notice .notice-dismiss-button {
+    color: #ff0000;
+    cursor: pointer;
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    bottom: 6px;
+    text-decoration: underline;
+}
+
+.newsmatic-welcome-notice .notice-actions a {
+    padding: 4px 18px;
+    font-family: 'Roboto';
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.newsmatic-welcome-notice .notice-content .notice-actions a.button:hover {
+    box-shadow: 2px 2px 5px #00000033, inset 0 0 0 99999px #0605050f;
+}
+
+.newsmatic-welcome-notice .notice-heading {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.newsmatic-welcome-notice .notice-content {
+    font-size: 13px;
+    padding-left: 2px;
+}
+
+.newsmatic-welcome-notice .notice-content .notice-actions {
+    margin-top: 18px;
+}
+
+.newsmatic-welcome-notice .notice-content .features-list li {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.newsmatic-welcome-notice .notice-content .features-list li:before {
+    content: "\f155";
+    font-family: 'dashicons';
+    padding-right: 15px;
+    font-size: 12px;
+    color: #0f1eeb;
+    vertical-align: middle;
+}
+
+.newsmatic-welcome-notice.newsmatic-update-notice .notice-actions a:last-child {
+    background-color: transparent;
+    border: 1px solid #2271b1;
+    color: #2271b1;
+}
+
+.newsmatic-welcome-notice.newsmatic-update-notice .screenshot-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsmatic-admin-notice h2 {
+    font-family: 'Roboto';
+    font-size: 23px;
+}
